@@ -193,6 +193,10 @@ section {
     background-color: #dd9748;
 }
 
+.resume-btn {
+    background-color: #217239;
+}
+
 #portfolio .portfolio-items {
     display: flex;
     justify-content: space-between;
