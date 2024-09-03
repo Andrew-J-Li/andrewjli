@@ -70,7 +70,7 @@ section {
 }
 
 #home {
-    background: #72c1f3;
+    background: #233e4e;
     color: #fff;
     text-align: center;
     height: 100vh;
@@ -96,7 +96,7 @@ section {
 }
 
 #home .home-content .btn {
-    background: #264653;
+    background: #59a0bd;
     color: #fff;
     padding: 12px 24px;
     border-radius: 5px;
@@ -220,7 +220,7 @@ section {
 }
 
 #portfolio .portfolio-item h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 10px 0;
     color: #264653;
 }
