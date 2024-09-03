@@ -211,11 +211,12 @@ section {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s;
+    overflow: hidden;
 }
 
 #portfolio .portfolio-item img {
     width: 50%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
 }
 
 #portfolio .portfolio-item h3 {
