@@ -234,6 +234,17 @@ section {
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 768px) {
+    #portfolio .portfolio-items {
+        flex-direction: column;
+    }
+
+    #portfolio .portfolio-item {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+}
+
 footer {
     background: #333;
     color: #fff;
