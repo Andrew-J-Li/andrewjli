@@ -70,7 +70,7 @@ section {
 }
 
 #home {
-    background: #3498db;
+    background: #72c1f3;
     color: #fff;
     text-align: center;
     height: 100vh;
@@ -119,7 +119,7 @@ section {
     margin-bottom: 20px; /* Space between the headshot and the heading */
 }
 
-#about h2, #portfolio h2, #contact h2 {
+#about h2, #portfolio h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 2em;
