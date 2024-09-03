@@ -119,9 +119,22 @@ section {
     margin-bottom: 20px; /* Space between the headshot and the heading */
 }
 
-#about h2, #portfolio h2 {
+#portfolio h2 {
     text-align: center;
     margin-bottom: 40px;
+    font-size: 2em;
+    color: #264653;
+}
+
+
+#about {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 30px;
     font-size: 2em;
     color: #264653;
 }
@@ -129,9 +142,55 @@ section {
 #about p {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     line-height: 1.8;
     color: #555;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.linkedin-btn {
+    background-color: #87b9db;
+}
+
+.github-btn {
+    background-color: #333;
+}
+
+.email-btn {
+    background-color: #D44638;
+}
+
+.codeforces-btn {
+    background-color: #dd9748;
 }
 
 #portfolio .portfolio-items {
@@ -151,7 +210,7 @@ section {
 }
 
 #portfolio .portfolio-item img {
-    width: 100%;
+    width: 50%;
     border-radius: 10px 10px 0 0;
 }
 
